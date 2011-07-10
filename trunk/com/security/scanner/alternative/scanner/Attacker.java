@@ -2,6 +2,7 @@ package com.security.scanner.alternative.scanner;
 
 import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 
 import java.io.File;
@@ -13,17 +14,23 @@ public class Attacker implements Runnable{
 
     String attackVector;
     String url;
+    WebDriver driver;
+    List<WebElement> allInputs = new ArrayList<WebElement>();
+    List<WebElement> allForms = new ArrayList<WebElement>();
 
-    public Attacker (String url)
+    public Attacker (String url, WebDriver driver)
     {
         this.url = url;
+        this.driver = driver;
+    }
+
+    public Attacker using(String attackVector)
+    {
+        this.attackVector = attackVector;
+        return this;
     }
 
     public void run() {
-
-    List<WebElement> allInputs = new ArrayList<WebElement>();
-    List<WebElement> allForms = new ArrayList<WebElement>();
-    List<String> attackVectors = new ArrayList<String>();
 
         allForms = driver.findElements(By.xpath("//form"));
         for (WebElement form: allForms)
@@ -48,11 +55,5 @@ public class Attacker implements Runnable{
         }
 
         driver.close();
-    }
-
-    public Attacker using(String attackVector)
-    {
-        this.attackVector = attackVector;
-        return this;
     }
 }
