@@ -11,7 +11,7 @@ import java.util.List;
 
 public class Attacker implements Runnable{
 
-    File attackVectorFile;
+    String attackVector;
     String url;
 
     public Attacker (String url)
@@ -50,21 +50,9 @@ public class Attacker implements Runnable{
         driver.close();
     }
 
-    public Attacker using(File attackVectorFile)
+    public Attacker using(String attackVector)
     {
-        this.attackVectorFile = attackVectorFile;
+        this.attackVector = attackVector;
         return this;
     }
-
-    private void processAttackVectorFile()
-    {
-        try {
-            FileUtils.readLines(this.attackVectorFile);
-        } catch (IOException ioe) {
-            System.err.println(ioe);
-        }
-    }
-
-
-
 }
