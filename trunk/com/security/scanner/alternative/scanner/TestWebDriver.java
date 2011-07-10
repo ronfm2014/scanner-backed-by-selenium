@@ -17,8 +17,6 @@ public class TestWebDriver {
     public TestWebDriver (WebDriver driver)
     {
         this.driver = driver;
-        driver.get(this.urlToScan);
-//      this.driver = new HtmlUnitDriver(true);
     }
 
     public Attacker attack (String urlToScan) {
@@ -27,9 +25,9 @@ public class TestWebDriver {
         return new Attacker(this.urlToScan, this.driver);
     }
 
-    public LoginBuilder login (String username, String password)
+    public LoginBuilder login (String username, String password, String urlToScan)
     {
-       return new LoginBuilder(driver, username, password);
+       return new LoginBuilder(driver, username, password, urlToScan);
     }
 
     public ValidationReport executionReportFor(String attackVector)
