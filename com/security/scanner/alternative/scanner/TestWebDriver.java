@@ -11,7 +11,6 @@ import java.util.List;
 
 public class TestWebDriver {
 
-    String urlToScan;
     WebDriver driver;
 
     public TestWebDriver (WebDriver driver)
@@ -19,10 +18,9 @@ public class TestWebDriver {
         this.driver = driver;
     }
 
-    public Attacker attack (String urlToScan) {
+    public Attacker attack () {
 
-        this.urlToScan = urlToScan;
-        return new Attacker(this.urlToScan, this.driver);
+        return new Attacker(driver);
     }
 
     public LoginBuilder login (String username, String password, String urlToScan)
@@ -32,7 +30,7 @@ public class TestWebDriver {
 
     public ValidationReport executionReportFor(String attackVector)
     {
-        return new ValidationReport(this.driver, attackVector);
+        return new ValidationReport(driver, attackVector);
     }
 
     public void shutdown()
