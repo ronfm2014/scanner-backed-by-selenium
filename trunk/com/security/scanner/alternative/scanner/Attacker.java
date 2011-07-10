@@ -18,9 +18,8 @@ public class Attacker implements Runnable{
     List<WebElement> allInputs = new ArrayList<WebElement>();
     List<WebElement> allForms = new ArrayList<WebElement>();
 
-    public Attacker (String url, WebDriver driver)
+    public Attacker (WebDriver driver)
     {
-        this.url = url;
         this.driver = driver;
     }
 
