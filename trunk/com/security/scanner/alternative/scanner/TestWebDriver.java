@@ -18,7 +18,7 @@ public class TestWebDriver {
         this.driver = driver;
     }
 
-    public Attacker attack () {
+    public Attacker attack (String url) {
 
         return new Attacker(driver);
     }
