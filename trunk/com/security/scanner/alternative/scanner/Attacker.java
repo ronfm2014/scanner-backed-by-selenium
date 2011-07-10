@@ -48,10 +48,6 @@ public class Attacker implements Runnable{
             break;
         }
 
-        try {
-            driver.switchTo().alert();
-        } catch (NullPointerException npe) {
-            System.out.println("Attack failed for vector: " + attackVector);
-        }
+
     }
 }
