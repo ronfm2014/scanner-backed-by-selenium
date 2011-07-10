@@ -53,7 +53,5 @@ public class Attacker implements Runnable{
         } catch (NullPointerException npe) {
             System.out.println("Attack failed for vector: " + attackVector);
         }
-
-        driver.close();
     }
 }
