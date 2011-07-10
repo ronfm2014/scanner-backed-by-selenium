@@ -59,7 +59,7 @@ public class Attacker implements Runnable{
     private void processAttackVectorFile()
     {
         try {
-            this.aFileUtils.readLines(this.attackVectorFile);
+            FileUtils.readLines(this.attackVectorFile);
         } catch (IOException ioe) {
             System.err.println(ioe);
         }
