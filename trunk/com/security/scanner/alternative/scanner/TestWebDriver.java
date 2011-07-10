@@ -11,23 +11,24 @@ import java.util.List;
 
 public class TestWebDriver {
 
-    File attackVectorFile;
+    String urlToScan;
     WebDriver driver;
 
-    public TestWebDriver (String url)
+    public TestWebDriver (WebDriver driver)
     {
-        this.driver = new FirefoxDriver();
+        this.driver = driver;
 //      this.driver = new HtmlUnitDriver(true);
-        driver.get(url);
     }
 
-    public Attacker attack (String url) {
+    public Attacker attack (String urlToScan) {
 
-        return new Attacker(url).using(attackVectorFile);
+        this.urlToScan = urlToScan;
+        driver.get(this.urlToScan);
+        return new Attacker(this.urlToScan);
     }
 
-    public TestWebDriver login (String username, String password)
+    public LoginBuilder login (String username, String password)
     {
-
+       return new LoginBuilder(driver, username, password);
     }
 }
