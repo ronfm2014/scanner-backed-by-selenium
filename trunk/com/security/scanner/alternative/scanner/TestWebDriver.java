@@ -31,4 +31,9 @@ public class TestWebDriver {
     {
        return new LoginBuilder(driver, username, password);
     }
+
+    public void shutdown()
+    {
+        driver.close();
+    }
 }
