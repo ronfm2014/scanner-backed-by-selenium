@@ -24,7 +24,7 @@ public class TestWebDriver {
 
         this.urlToScan = urlToScan;
         driver.get(this.urlToScan);
-        return new Attacker(this.urlToScan);
+        return new Attacker(this.urlToScan, this.driver);
     }
 
     public LoginBuilder login (String username, String password)
