@@ -47,17 +47,6 @@ public class SeleniumBadBoy {
         }
     }
 
-
-
-    private void login(WebDriver driver) {
-        WebElement userInput = driver.findElement(By.xpath("//input[@name='username']"));
-        userInput.sendKeys("admin");
-        WebElement passwordInput = driver.findElement(By.name("password"));
-        passwordInput.sendKeys("password");
-        WebElement loginButton = driver.findElement(By.name("Login"));
-        loginButton.click();
-    }
-
     private boolean loginHasBeenMade(WebDriver driver)
     {
         WebElement userInput = driver.findElement(By.xpath("//input[@name='username']"));

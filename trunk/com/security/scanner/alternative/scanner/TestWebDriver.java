@@ -1,5 +1,6 @@
 package com.security.scanner.alternative.scanner;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.firefox.FirefoxDriver;
@@ -23,5 +24,10 @@ public class TestWebDriver {
     public Attacker attack (String url) {
 
         return new Attacker(url).using(attackVectorFile);
+    }
+
+    public TestWebDriver login (String username, String password)
+    {
+
     }
 }
