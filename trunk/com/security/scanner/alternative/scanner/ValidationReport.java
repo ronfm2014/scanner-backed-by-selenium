@@ -25,10 +25,18 @@ public class ValidationReport {
 
     public void waitFor()
     {
+        String alertText;
         try {
-            driver.switchTo().alert();
-            assertTrue("Attack failed for vector: " + attackVector, successful);
+            alertText = driver.switchTo().alert().getText();
         } catch (NullPointerException npe) {
+            alertText = null;
+        }
+
+        if (null != alertText)
+        {
+            assertTrue("Attack failed for vector: " + attackVector, successful);
+        } else
+        {
             assertFalse("Attack failed for vector: " + attackVector, successful);
         }
     }
