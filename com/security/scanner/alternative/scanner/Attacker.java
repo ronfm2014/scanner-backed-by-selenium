@@ -37,7 +37,9 @@ public class Attacker implements Runnable{
             allInputs.addAll(form.findElements(By.xpath(".//textarea")));
             for (WebElement input : allInputs) {
 
-                if (input.isDisplayed() && input.isEnabled() && input.getAttribute("type")!="submit") {
+                if (input.isDisplayed() && input.isEnabled() &&
+                        (input.getAttribute("type").equals("text") || input.getTagName().equals("textarea")))
+                {
                     input.sendKeys(vector);
                 }
             }
