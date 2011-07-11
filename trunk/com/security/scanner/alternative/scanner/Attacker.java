@@ -1,22 +1,16 @@
 package com.security.scanner.alternative.scanner;
 
-import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 
-import java.io.File;
-import java.io.IOException;
-import java.util.ArrayList;
 import java.util.List;
 
 public class Attacker implements Runnable{
 
-    String attackVector;
+    String vector;
     String url;
     WebDriver driver;
-    List<WebElement> allInputs = new ArrayList<WebElement>();
-    List<WebElement> allForms = new ArrayList<WebElement>();
 
     public Attacker (WebDriver driver, String urlToAttack)
     {
@@ -26,11 +20,14 @@ public class Attacker implements Runnable{
 
     public Attacker using(String attackVector)
     {
-        this.attackVector = attackVector;
+        this.vector = attackVector;
         return this;
     }
 
     public void run() {
+
+        List<WebElement> allInputs;
+        List<WebElement> allForms;
 
         driver.get(url);
         allForms = driver.findElements(By.xpath("//form"));
@@ -41,14 +38,12 @@ public class Attacker implements Runnable{
             for (WebElement input : allInputs) {
 
                 if (input.isDisplayed() && input.isEnabled() && input.getAttribute("type")!="submit") {
-                    input.sendKeys(attackVector);
+                    input.sendKeys(vector);
                 }
             }
 
             form.findElement(By.xpath(".//input[@type='submit']")).click();
             break;
         }
-
-
     }
 }

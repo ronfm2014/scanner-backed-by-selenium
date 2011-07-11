@@ -8,13 +8,13 @@ import static junit.framework.Assert.assertTrue;
 public class ValidationReport {
 
     WebDriver driver;
-    String attackVector;
+    String vector;
     Boolean successful;
 
     public ValidationReport(WebDriver driver, String attackVector)
     {
         this.driver = driver;
-        this.attackVector = attackVector;
+        this.vector = attackVector;
     }
 
     public ValidationReport success(Boolean successful)
@@ -34,10 +34,10 @@ public class ValidationReport {
 
         if (null != alertText)
         {
-            assertTrue("Attack failed for vector: " + attackVector, successful);
+            assertTrue("Attack failed for vector: " + vector, successful);
         } else
         {
-            assertFalse("Attack failed for vector: " + attackVector, successful);
+            assertFalse("Attack failed for vector: " + vector, successful);
         }
     }
 
