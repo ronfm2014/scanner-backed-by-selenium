@@ -32,6 +32,7 @@ public class Attacker implements Runnable{
 
     public void run() {
 
+        driver.get(url);
         allForms = driver.findElements(By.xpath("//form"));
         for (WebElement form: allForms)
         {
