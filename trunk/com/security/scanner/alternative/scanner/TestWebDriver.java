@@ -20,8 +20,7 @@ public class TestWebDriver {
 
     public Attacker attack (String urlToAttack) {
 
-        driver.get(urlToAttack);
-        return new Attacker(driver);
+        return new Attacker(driver, urlToAttack);
     }
 
     public LoginBuilder login (String username, String password, String urlToScan)
