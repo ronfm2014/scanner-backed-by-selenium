@@ -28,9 +28,9 @@ public class TestWebDriver {
        return new LoginBuilder(driver, username, password, urlToScan);
     }
 
-    public ValidationReport executionReportFor(String attackVector)
+    public ValidationReport executionReportFor(String vector)
     {
-        return new ValidationReport(driver, attackVector);
+        return new ValidationReport(driver, vector);
     }
 
     public void shutdown()
