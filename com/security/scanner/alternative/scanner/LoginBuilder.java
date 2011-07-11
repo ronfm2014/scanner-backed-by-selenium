@@ -9,11 +9,11 @@ public class LoginBuilder implements Runnable{
     WebDriver driver;
     String username;
     String password;
-    String urlToScan;
+    String url;
 
     public LoginBuilder (WebDriver driver, String username, String password, String urlToScan)
     {
-        this.urlToScan = urlToScan;
+        this.url = urlToScan;
         this.driver = driver;
         this.username = username;
         this.password = password;
@@ -21,7 +21,7 @@ public class LoginBuilder implements Runnable{
 
     public void run() {
 
-        driver.get(urlToScan);
+        driver.get(url);
         WebElement userInput = driver.findElement(By.xpath("//input[@name='username']"));
         userInput.sendKeys("admin");
         WebElement passwordInput = driver.findElement(By.name("password"));
