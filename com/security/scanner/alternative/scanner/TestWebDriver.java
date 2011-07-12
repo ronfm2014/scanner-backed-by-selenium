@@ -12,6 +12,7 @@ import java.util.List;
 public class TestWebDriver {
 
     WebDriver driver;
+    private List<WebElement> allUrls;
 
     public TestWebDriver (WebDriver driver)
     {
@@ -36,5 +37,11 @@ public class TestWebDriver {
     public void shutdown()
     {
         driver.close();
+    }
+
+    public void crawlWebSite(WebDriver driver, String urlToScan) {
+
+        driver.get(urlToScan);
+        allUrls = driver.findElements(By.tagName("a"));
     }
 }
