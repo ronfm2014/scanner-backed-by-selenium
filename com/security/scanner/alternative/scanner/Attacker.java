@@ -29,6 +29,8 @@ public class Attacker implements Runnable {
         List<WebElement> allInputs;
         List<WebElement> allForms;
 
+        driver.get(url);
+
         allForms = driver.findElements(By.xpath("//form"));
         for (WebElement form : allForms) {
             allInputs = form.findElements(By.xpath(".//input"));
