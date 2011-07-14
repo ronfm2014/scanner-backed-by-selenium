@@ -1,6 +1,8 @@
 package com.security.scanner.alternative.scanner;
 
+import org.openqa.selenium.Alert;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebDriverException;
 
 import static junit.framework.Assert.assertFalse;
 import static junit.framework.Assert.assertTrue;
@@ -18,19 +20,12 @@ public class ValidationReport {
 
     public void waitFor()
     {
-        String alertText;
         try {
-            alertText = driver.switchTo().alert().getText();
-        } catch (NullPointerException npe) {
-            alertText = null;
-        }
-
-        if (null != alertText)
-        {
-            System.out.println("Attack succeeded for vector: " + vector);
-        } else
-        {
-            System.out.println("Attack succeeded for vector: " + vector);
+            Alert alertXss = driver.switchTo().alert();
+            alertXss.dismiss();
+            System.out.println("Attack succeeded for vector: " + vector + " on page " + driver.getCurrentUrl());
+        } catch (WebDriverException wde) {
+            System.out.println("Attack failed for vector: " + vector + " on page " + driver.getCurrentUrl());
         }
     }
 }
