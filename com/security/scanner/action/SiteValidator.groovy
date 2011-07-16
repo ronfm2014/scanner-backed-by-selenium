@@ -43,7 +43,7 @@ class SiteValidator {
     //crawl the URL
     myCrawler.crawl()
     //select the XML file to be used as repository of attack vectors
-    def xmlPath = 'src/resources/attackVector.xml'
+    def xmlPath = 'resources/attackVector.xml'
     //load the attack vectors
     def attackVectors = new AttackXmlParser(xmlPath).attackVectors
     Statistics.fw.append('URL, Efficiency,\n')
@@ -77,7 +77,7 @@ class SiteValidator {
         //unique identified added at the end.
         vectorClone.vector = vector.vector.replaceAll('CrossSiteScriptingAcademia', 'CrossSiteScriptingAcademia' + count)
         //switch between the different attack options available to the user
-        switch (attackType) {
+        switch (attackType.toLowerCase()) {
           case ['get']: doGetAttack(requestFactory, formAssembler, vectorClone, count); break
           case ['post']: doPostAttack(requestFactory, formAssembler, vectorClone, count); break
           case ['both']: doGetAttack(requestFactory, formAssembler, vectorClone, count)

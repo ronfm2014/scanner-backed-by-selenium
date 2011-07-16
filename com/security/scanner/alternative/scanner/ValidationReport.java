@@ -24,12 +24,15 @@ public class ValidationReport {
         numberOfInjections++;
         try {
             Alert alertXss = driver.switchTo().alert();
-            if (alertXss.getText() == "CrossSiteScriptingAcademia") {
+            if (alertXss.getText().equals("CrossSiteScriptingAcademia")) {
                 System.out.println("Attack succeeded for vector: " + vector + " on page " + driver.getCurrentUrl());
             }
             alertXss.dismiss();
             numberOfSuccesses++;
         } catch (WebDriverException wde) {
+            System.out.println("Attack failed for vector: " + vector + " on page " + driver.getCurrentUrl());
+            numberOfFailures++;
+        } catch (NullPointerException npe) {
             System.out.println("Attack failed for vector: " + vector + " on page " + driver.getCurrentUrl());
             numberOfFailures++;
         }
