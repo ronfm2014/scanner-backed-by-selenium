@@ -5,12 +5,13 @@ import org.apache.commons.io.LineIterator;
 
 import java.io.File;
 import java.io.IOException;
+import java.util.ArrayList;
 import java.util.List;
 
 public class AttackVectorProcessor {
 
     File attackVectorFile;
-    List listOfAttackVectors;
+    List<String> listOfAttackVectors = new ArrayList<String>();
 
 
     public AttackVectorProcessor (File attackVectorFile)
