@@ -1,6 +1,7 @@
 package com.security.scanner.alternative.scanner;
 
 import org.openqa.selenium.Alert;
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebDriverException;
 
@@ -30,10 +31,10 @@ public class ValidationReport {
             alertXss.dismiss();
             numberOfSuccesses++;
         } catch (WebDriverException wde) {
-            System.out.println("Attack failed for vector: " + vector + " on page " + driver.getCurrentUrl());
+            //System.out.println("Attack failed for vector: " + vector + " on page " + driver.getCurrentUrl());
             numberOfFailures++;
         } catch (NullPointerException npe) {
-            System.out.println("Attack failed for vector: " + vector + " on page " + driver.getCurrentUrl());
+            //System.out.println("Attack failed for vector: " + vector + " on page " + driver.getCurrentUrl());
             numberOfFailures++;
         }
     }
