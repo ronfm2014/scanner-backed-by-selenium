@@ -24,7 +24,7 @@ public class ValidationReport {
     public void waitFor() {
         numberOfInjections++;
         try {
-            driver.findElement(By.xpath("//input[@*]/text()[. = 'xss'])"));
+            driver.findElement(By.xpath("//input[@*]/text()[contains(.,'CrossSiteScriptingAcademia')]"));
             Alert alertXss = driver.switchTo().alert();
             if (alertXss.getText().equals("CrossSiteScriptingAcademia")) {
                 System.out.println("Attack succeeded for vector: " + vector + " on page " + driver.getCurrentUrl());
