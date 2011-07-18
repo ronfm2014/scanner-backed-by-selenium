@@ -24,11 +24,6 @@ public class TestWebDriver {
         return new Attacker(driver, urlToAttack);
     }
 
-    public LoginBuilder login (String username, String password, String urlToScan)
-    {
-       return new LoginBuilder(driver, username, password, urlToScan);
-    }
-
     public ValidationReport executionReportFor(String vector)
     {
         return new ValidationReport(driver, vector);

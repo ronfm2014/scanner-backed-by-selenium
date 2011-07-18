@@ -2,8 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" readonly="true" id="1986b5f7-74c0-47e0-b063-bf9c47477bbb" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/temp.html" />
+      <change type="DELETED" beforePath="D:\master_AIS\Final Project\sandbox\scannerGoogleCode\com\security\scanner\alternative\scanner\LoginBuilder.java" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com/security/scanner/alternative/scanner/TestWebDriver.java" afterPath="$PROJECT_DIR$/com/security/scanner/alternative/scanner/TestWebDriver.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com/security/scanner/alternative/scanner/ValidationReport.java" afterPath="$PROJECT_DIR$/com/security/scanner/alternative/scanner/ValidationReport.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com/security/scanner/alternative/scanner/WebVulnerabilityScanner.java" afterPath="$PROJECT_DIR$/com/security/scanner/alternative/scanner/WebVulnerabilityScanner.java" />
     </list>
     <ignored path="trunk.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -22,6 +26,34 @@
     <disable_hints />
   </component>
   <component name="DebuggerManager">
+    <line_breakpoints>
+      <breakpoint url="file://$PROJECT_DIR$/com/security/scanner/console/CrawlerMain.groovy" line="59" class="com.security.scanner.console.CrawlerMain" package="">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="false" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/com/security/scanner/alternative/scanner/WebVulnerabilityScanner.java" line="43" class="com.security.scanner.alternative.scanner.WebVulnerabilityScanner" package="com.security.scanner.alternative.scanner">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="false" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+    </line_breakpoints>
     <breakpoint_any>
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
@@ -62,29 +94,22 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="ValidationReport.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="ValidationReport.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/com/security/scanner/alternative/scanner/ValidationReport.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="29" column="0" selection-start="931" selection-end="931" vertical-scroll-proportion="0.59216255">
+            <state line="26" column="74" selection-start="779" selection-end="779" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="WebVulnerabilityTests.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/com/security/scanner/alternative/scanner/WebVulnerabilityTests.java">
+      <file leaf-file-name="WebVulnerabilityScanner.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/com/security/scanner/alternative/scanner/WebVulnerabilityScanner.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="47" column="72" selection-start="1443" selection-end="1469" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Statistics.groovy" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/com/security/scanner/action/Statistics.groovy">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="6" selection-start="369" selection-end="369" vertical-scroll-proportion="0.0">
-              <folding />
+            <state line="22" column="24" selection-start="861" selection-end="861" vertical-scroll-proportion="0.23512337">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -92,7 +117,16 @@
       <file leaf-file-name="TestWebDriver.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/com/security/scanner/alternative/scanner/TestWebDriver.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="33" column="33" selection-start="837" selection-end="837" vertical-scroll-proportion="0.0">
+            <state line="24" column="5" selection-start="567" selection-end="567" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Attacker.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/com/security/scanner/alternative/scanner/Attacker.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="34" column="42" selection-start="857" selection-end="857" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -109,12 +143,21 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/com/security/scanner/alternative/scanner/LoginBuilder.java" />
-        <option value="$PROJECT_DIR$/resources/attackVector.txt" />
         <option value="$PROJECT_DIR$/com/security/scanner/alternative/scanner/SeleniumBadBoy.java" />
-        <option value="$PROJECT_DIR$/com/security/scanner/alternative/scanner/TestWebDriver.java" />
         <option value="$PROJECT_DIR$/com/security/scanner/alternative/scanner/Attacker.java" />
+        <option value="$PROJECT_DIR$/com/security/scanner/assembler/HtmlFormAssembler.groovy" />
+        <option value="$PROJECT_DIR$/com/security/scanner/action/SiteValidator.groovy" />
+        <option value="$PROJECT_DIR$/com/security/scanner/alternative/scanner/AttackVectorProcessorImpl.java" />
+        <option value="$PROJECT_DIR$/com/security/scanner/alternative/scanner/AttackVectorProcessor.java" />
+        <option value="$PROJECT_DIR$/resources/attackVector.txt" />
+        <option value="$PROJECT_DIR$/resources/attackVector.xml" />
         <option value="$PROJECT_DIR$/com/security/scanner/alternative/scanner/WebVulnerabilityTests.java" />
+        <option value="$PROJECT_DIR$/com/security/scanner/alternative/scanner/temp.java" />
+        <option value="$PROJECT_DIR$/com/security/scanner/alternative/scanner/SeleniumJavaExample.java" />
+        <option value="$PROJECT_DIR$/com/security/scanner/alternative/scanner/TestWebDriver.java" />
+        <option value="$PROJECT_DIR$/resources/temp.html" />
         <option value="$PROJECT_DIR$/com/security/scanner/alternative/scanner/ValidationReport.java" />
+        <option value="$PROJECT_DIR$/com/security/scanner/alternative/scanner/WebVulnerabilityScanner.java" />
       </list>
     </option>
   </component>
@@ -148,8 +191,7 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Favorites" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -178,7 +220,25 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="scannerGoogleCode" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="scannerGoogleCode" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="scanner" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="model" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -197,6 +257,24 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="console" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="scannerGoogleCode" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="scannerGoogleCode" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="scanner" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assembler" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -238,22 +316,24 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="Favorites" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_flatWidth1" value="168" />
-    <property name="project.structure.last.edited" value="Modules" />
     <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_flatWidth0" value="149" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_flatWidth3" value="44" />
-    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_flatWidth2" value="170" />
     <property name="project.structure.proportion" value="0.0" />
+    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_flatWidth2" value="170" />
+    <property name="OverrideImplement.combined" value="true" />
     <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_flatOrder1" value="1" />
     <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_flatOrder0" value="0" />
     <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_flatOrder3" value="3" />
     <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_flatOrder2" value="2" />
-    <property name="recentsLimit" value="5" />
     <property name="MemberChooser.sorted" value="false" />
+    <property name="recentsLimit" value="5" />
     <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_treeWidth2" value="140" />
     <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_flatOrder4" value="4" />
     <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_treeWidth1" value="139" />
@@ -268,19 +348,24 @@
     <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_treeOrder3" value="3" />
     <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_treeOrder4" value="4" />
     <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_treeOrder1" value="1" />
-    <property name="project.structure.side.proportion" value="0.2" />
     <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_treeOrder2" value="2" />
-    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_treeOrder0" value="0" />
+    <property name="project.structure.side.proportion" value="0.2" />
     <property name="MemberChooser.copyJavadoc" value="false" />
+    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_treeOrder0" value="0" />
     <property name="dynamic.classpath" value="false" />
   </component>
-  <component name="RunManager" selected="Application.WebVulnerabilityTests">
-    <configuration default="false" name="WebVulnerabilityTests.testWebsiteForSecurityProblems" type="JUnit" factoryName="JUnit" temporary="true">
-      <module name="Trunk" />
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.security.scanner.alternative.scanner" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.WebVulnerabilityScanner">
+    <configuration default="false" name="WebVulnerabilityScanner.testWebsiteForSecurityProblems" type="JUnit" factoryName="JUnit" temporary="true">
+      <module name="ScannerGoogleCode" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="com.security.scanner.alternative.scanner" />
-      <option name="MAIN_CLASS_NAME" value="com.security.scanner.alternative.scanner.WebVulnerabilityTests" />
+      <option name="MAIN_CLASS_NAME" value="com.security.scanner.alternative.scanner.WebVulnerabilityScanner" />
       <option name="METHOD_NAME" value="testWebsiteForSecurityProblems" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" />
@@ -297,12 +382,34 @@
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
-    <configuration default="false" name="WebVulnerabilityTests.testWebsiteForSecurityXss1" type="JUnit" factoryName="JUnit" temporary="true">
+    <configuration default="false" name="WebVulnerabilityScanner" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.security.scanner.alternative.scanner.WebVulnerabilityScanner" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="ScannerGoogleCode" />
+      <envs />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="50432" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="true" />
+      </RunnerSettings>
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Debug" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="WebVulnerabilityScanner.testWebsiteForSecurityXss1" type="JUnit" factoryName="JUnit" temporary="true">
       <module name="ScannerGoogleCode" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="com.security.scanner.alternative.scanner" />
-      <option name="MAIN_CLASS_NAME" value="com.security.scanner.alternative.scanner.WebVulnerabilityTests" />
+      <option name="MAIN_CLASS_NAME" value="com.security.scanner.alternative.scanner.WebVulnerabilityScanner" />
       <option name="METHOD_NAME" value="testWebsiteForSecurityXss1" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" />
@@ -325,8 +432,8 @@
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
-    <configuration default="false" name="WebVulnerabilityTests" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.security.scanner.alternative.scanner.WebVulnerabilityTests" />
+    <configuration default="false" name="CrawlerMain" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.security.scanner.console.CrawlerMain" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -338,7 +445,7 @@
       <module name="ScannerGoogleCode" />
       <envs />
       <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="50432" />
+        <option name="DEBUG_PORT" value="52960" />
         <option name="TRANSPORT" value="0" />
         <option name="LOCAL" value="true" />
       </RunnerSettings>
@@ -413,10 +520,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <list size="3">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.WebVulnerabilityTests.testWebsiteForSecurityProblems" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.WebVulnerabilityTests.testWebsiteForSecurityXss1" />
-      <item index="2" class="java.lang.String" itemvalue="Application.WebVulnerabilityTests" />
+    <list size="4">
+      <item index="0" class="java.lang.String" itemvalue="JUnit.WebVulnerabilityScanner.testWebsiteForSecurityProblems" />
+      <item index="1" class="java.lang.String" itemvalue="Application.WebVulnerabilityScanner" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.WebVulnerabilityScanner.testWebsiteForSecurityXss1" />
+      <item index="3" class="java.lang.String" itemvalue="Application.CrawlerMain" />
     </list>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
       <Host>localhost</Host>
@@ -469,24 +577,44 @@
     </task>
     <servers />
   </component>
+  <component name="TodoView" selected-index="0">
+    <todo-panel id="selected-file">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="default-changelist">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="false" />
+    </todo-panel>
+  </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1456" height="876" extended-state="6" />
     <editor active="true" />
     <layout>
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32729805" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33704737" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3286908" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32729805" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24946997" sideWeight="0.23537605" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24946997" sideWeight="0.6239554" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39972144" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.36768803" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21837457" sideWeight="0.67270195" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.34958217" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32033426" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.37604457" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3286908" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32729805" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -517,7 +645,7 @@
     <option name="CHECK_COMMIT_MESSAGE_SPELLING" value="true" />
     <option name="DEFAULT_PATCH_EXTENSION" value="patch" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="need to polish out efficiency measures." />
+    <option name="LAST_COMMIT_MESSAGE" value="rename main class&#10;" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -536,62 +664,111 @@
     <MESSAGE value="Change ValidationReport to reflect new style of app - away from the JUnit test style with asserts." />
     <MESSAGE value="Final version working with the test website and using only 1 attack vector&#10;" />
     <MESSAGE value="need to polish out efficiency measures." />
+    <MESSAGE value="added message box text validation...maybe the website has pop-ups" />
+    <MESSAGE value="validate the alert message to contain only the CrossSiteScriptingAcademia. Previously any alert containing the message would've given a positive result." />
+    <MESSAGE value="added processing of attack vector file into a list of vectors. To be used in multiple attacks case.&#10;" />
+    <MESSAGE value="minor changes - took out dead code" />
+    <MESSAGE value="rename main class&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/resources/attackVector.txt">
+    <entry file="file://$PROJECT_DIR$/com/security/scanner/model/AttackXmlParser.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="29" selection-start="960" selection-end="960" vertical-scroll-proportion="0.0" />
+        <state line="21" column="0" selection-start="490" selection-end="490" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/com/security/scanner/alternative/scanner/LoginBuilder.java">
+    <entry file="jar://$PROJECT_DIR$/../../libraries/selenium-2.0.0/selenium-server-standalone-2.0.0.jar!/org/cyberneko/html/parsers/SAXParser.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="11" selection-start="288" selection-end="288" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/com/security/scanner/console/CrawlerMain.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="59" column="26" selection-start="2282" selection-end="2282" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/com/security/scanner/action/SiteValidator.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="6" selection-start="953" selection-end="953" vertical-scroll-proportion="0.0" />
+        <state line="7" column="11" selection-start="244" selection-end="244" vertical-scroll-proportion="-4.76" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/com/security/scanner/action/Crawler.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="25" selection-start="924" selection-end="924" vertical-scroll-proportion="0.0" />
+        <state line="34" column="0" selection-start="1201" selection-end="1201" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/com/security/scanner/alternative/scanner/Attacker.java">
+    <entry file="file://$PROJECT_DIR$/com/security/scanner/assembler/HtmlFormAssembler.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="42" selection-start="857" selection-end="857" vertical-scroll-proportion="0.0" />
+        <state line="23" column="0" selection-start="481" selection-end="481" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/com/security/scanner/action/Statistics.groovy">
+    <entry file="file://$PROJECT_DIR$/com/security/scanner/action/SiteValidator.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="6" selection-start="369" selection-end="369" vertical-scroll-proportion="0.0" />
+        <state line="109" column="0" selection-start="4191" selection-end="4191" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com/security/scanner/console/CrawlerMain.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="12" selection-start="547" selection-end="547" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com/security/scanner/action/RequestFactory.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="111" column="13" selection-start="4656" selection-end="4657" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/attackVector.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="312" column="36" selection-start="17222" selection-end="17222" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/attackVector1Vector.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="146" column="22" selection-start="0" selection-end="17222" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/attackVector.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="52" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/com/security/scanner/alternative/scanner/TestWebDriver.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="33" selection-start="837" selection-end="837" vertical-scroll-proportion="0.0" />
+        <state line="24" column="5" selection-start="567" selection-end="567" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/com/security/scanner/alternative/scanner/WebVulnerabilityTests.java">
+    <entry file="file://$PROJECT_DIR$/com/security/scanner/alternative/scanner/Attacker.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="47" column="72" selection-start="1443" selection-end="1469" vertical-scroll-proportion="0.0">
+        <state line="34" column="42" selection-start="857" selection-end="857" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com/security/scanner/alternative/scanner/AttackVectorProcessor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="61" selection-start="362" selection-end="362" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/temp.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="38" selection-start="500" selection-end="500" vertical-scroll-proportion="-4.3333335">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/com/security/scanner/alternative/scanner/ValidationReport.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="0" selection-start="931" selection-end="931" vertical-scroll-proportion="0.59216255">
+        <state line="26" column="74" selection-start="779" selection-end="779" vertical-scroll-proportion="0.0">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com/security/scanner/alternative/scanner/WebVulnerabilityScanner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="24" selection-start="861" selection-end="861" vertical-scroll-proportion="0.23512337">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
