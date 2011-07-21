@@ -1,9 +1,7 @@
 package com.security.scanner.alternative.scanner;
 
-import org.openqa.selenium.Alert;
-import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebDriverException;
+import com.gargoylesoftware.htmlunit.javascript.background.JavaScriptExecutor;
+import org.openqa.selenium.*;
 
 import static junit.framework.Assert.assertFalse;
 import static junit.framework.Assert.assertTrue;
@@ -24,7 +22,11 @@ public class ValidationReport {
     public void waitFor() {
         numberOfInjections++;
         try {
-            driver.findElement(By.xpath("//input[@*]/text()[contains(.,'CrossSiteScriptingAcademia')]"));
+            String pageSource = driver.getPageSource();
+            int locationOfXssPayload = pageSource.indexOf(vector);
+            String payloadToExecute = pageSource.substring( locationOfXssPayload, locationOfXssPayload + vector.length());
+            ((JavascriptExecutor) driver).executeScript(payloadToExecute);
+            //this is how to make the FirefoxDriver instance run javascript
             Alert alertXss = driver.switchTo().alert();
             if (alertXss.getText().equals("CrossSiteScriptingAcademia")) {
                 System.out.println("Attack succeeded for vector: " + vector + " on page " + driver.getCurrentUrl());

@@ -33,10 +33,4 @@ public class TestWebDriver {
     {
         driver.close();
     }
-
-    public void crawlWebSite(WebDriver driver, String urlToScan) {
-
-        driver.get(urlToScan);
-        allUrls = driver.findElements(By.tagName("a"));
-    }
 }
