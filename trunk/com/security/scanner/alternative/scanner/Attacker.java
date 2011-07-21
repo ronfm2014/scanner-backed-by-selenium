@@ -1,14 +1,12 @@
 package com.security.scanner.alternative.scanner;
 
-import com.thoughtworks.selenium.Selenium;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.internal.seleniumemulation.Open;
 
 import java.util.List;
 
-public class Attacker implements Runnable {
+public class Attacker {
 
     String vector;
     String url;
@@ -37,7 +35,7 @@ public class Attacker implements Runnable {
             allInputs.addAll(form.findElements(By.xpath(".//textarea")));
             for (WebElement input : allInputs) {
 
-                if (input.isDisplayed() && input.isEnabled() &&
+                    if (input.isDisplayed() && input.isEnabled() &&
                         (input.getAttribute("type").equals("text") || input.getTagName().equals("textarea"))) {
                     input.sendKeys(vector);
                 }
