@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" readonly="true" id="1986b5f7-74c0-47e0-b063-bf9c47477bbb" name="Default" comment="">
+    <list readonly="true" id="1986b5f7-74c0-47e0-b063-bf9c47477bbb" name="Default" comment="" />
+    <list default="true" id="8d399f25-423a-4bb3-9a3e-4302dcdcd887" name="NoCommit" comment="">
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/temp.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com/security/scanner/alternative/scanner/Attacker.java" afterPath="$PROJECT_DIR$/com/security/scanner/alternative/scanner/Attacker.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com/security/scanner/alternative/scanner/TestWebDriver.java" afterPath="$PROJECT_DIR$/com/security/scanner/alternative/scanner/TestWebDriver.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com/security/scanner/alternative/scanner/ValidationReport.java" afterPath="$PROJECT_DIR$/com/security/scanner/alternative/scanner/ValidationReport.java" />
     </list>
     <ignored path="trunk.iws" />
@@ -27,32 +26,6 @@
   <component name="DebuggerManager">
     <line_breakpoints>
       <breakpoint url="file://$PROJECT_DIR$/com/security/scanner/console/CrawlerMain.groovy" line="59" class="com.security.scanner.console.CrawlerMain" package="">
-        <option name="ENABLED" value="true" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="false" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
-      </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/com/security/scanner/alternative/scanner/ValidationReport.java" line="29" class="com.security.scanner.alternative.scanner.ValidationReport" package="com.security.scanner.alternative.scanner">
-        <option name="ENABLED" value="true" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="false" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
-      </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/com/security/scanner/alternative/scanner/ValidationReport.java" line="24" class="com.security.scanner.alternative.scanner.ValidationReport" package="com.security.scanner.alternative.scanner">
         <option name="ENABLED" value="true" />
         <option name="LOG_ENABLED" value="false" />
         <option name="LOG_EXPRESSION_ENABLED" value="false" />
@@ -109,7 +82,7 @@
       <file leaf-file-name="ValidationReport.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/com/security/scanner/alternative/scanner/ValidationReport.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="14" selection-start="924" selection-end="924" vertical-scroll-proportion="0.4497717">
+            <state line="25" column="79" selection-start="868" selection-end="868" vertical-scroll-proportion="0.3964497">
               <folding />
             </state>
           </provider>
@@ -118,7 +91,7 @@
       <file leaf-file-name="temp.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/temp.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="54" selection-start="432" selection-end="432" vertical-scroll-proportion="0.0">
+            <state line="7" column="37" selection-start="265" selection-end="265" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -618,9 +591,11 @@
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="1986b5f7-74c0-47e0-b063-bf9c47477bbb" name="Default" comment="" />
+      <changelist id="8d399f25-423a-4bb3-9a3e-4302dcdcd887" name="NoCommit" comment="" />
       <created>1310335951278</created>
-      <updated>1310335951278</updated>
+      <updated>1311279535641</updated>
     </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -651,16 +626,16 @@
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4247911" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3286908" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32729805" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24946997" sideWeight="0.23537605" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21837457" sideWeight="0.6504178" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.34958217" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21837457" sideWeight="0.6239554" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.34958217" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32033426" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.37604457" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32729805" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -691,7 +666,7 @@
     <option name="CHECK_COMMIT_MESSAGE_SPELLING" value="true" />
     <option name="DEFAULT_PATCH_EXTENSION" value="patch" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="xpath needs some tweaking" />
+    <option name="LAST_COMMIT_MESSAGE" value="added JavascriptExecutor into the mix in order to asses if the injection worked...or not" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -716,6 +691,7 @@
     <MESSAGE value="minor changes - took out dead code" />
     <MESSAGE value="rename main class&#10;" />
     <MESSAGE value="xpath needs some tweaking" />
+    <MESSAGE value="added JavascriptExecutor into the mix in order to asses if the injection worked...or not" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -725,15 +701,22 @@
       <element expression="//html/input" />
       <element expression="//html/input[@type='button']" />
       <element expression="//html" />
+      <element expression="//*/[contains(.,'CrossSiteScriptingAcademia')]" />
+      <element expression="//*/@[contains(.,'CrossSiteScriptingAcademia')]" />
+      <element expression="//*[contains(@.,'CrossSiteScriptingAcademia')]" />
+      <element expression="//**[contains(.,'CrossSiteScriptingAcademia')]" />
+      <element expression="/*[contains(.,'CrossSiteScriptingAcademia')]" />
+      <element expression="//*[contains(.,'CrossSiteScriptingAcademia')]" />
+      <element expression="//@[contains(.,'CrossSiteScriptingAcademia')]" />
+      <element expression="node(//@*[contains(.,'CrossSiteScriptingAcademia')])" />
+      <element expression="/*/@*[contains(.,'CrossSiteScriptingAcademia')]" />
+      <element expression="//*[@*[contains(.,'CrossSiteScriptingAcademia')]]" />
+      <element expression="//@*[contains(.,'CrossSiteScriptingAcademia')]]" />
+      <element expression="//@*[contains(.,'CrossSiteScriptingAcademia')]" />
     </history>
     <find-history />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$PROJECT_DIR$/../../libraries/selenium-2.0.0/selenium-server-standalone-2.0.0.jar!/org/cyberneko/html/parsers/SAXParser.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="11" selection-start="244" selection-end="244" vertical-scroll-proportion="-4.76" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/com/security/scanner/action/Crawler.groovy">
       <provider selected="true" editor-type-id="text-editor">
         <state line="34" column="0" selection-start="1201" selection-end="1201" vertical-scroll-proportion="0.0" />
@@ -796,13 +779,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/temp.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="54" selection-start="432" selection-end="432" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/attackVector.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state line="4" column="28" selection-start="262" selection-end="262" vertical-scroll-proportion="0.0">
@@ -810,9 +786,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/com/security/scanner/action/ResponseAnalyzer.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="6" selection-start="611" selection-end="611" vertical-scroll-proportion="-1.413242">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/temp.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="37" selection-start="265" selection-end="265" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/com/security/scanner/alternative/scanner/ValidationReport.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="14" selection-start="924" selection-end="924" vertical-scroll-proportion="0.4497717">
+        <state line="25" column="79" selection-start="868" selection-end="868" vertical-scroll-proportion="0.3964497">
           <folding />
         </state>
       </provider>

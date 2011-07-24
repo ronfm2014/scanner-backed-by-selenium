@@ -1,0 +1,12 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1255">
+<title>Case 11 - RXSS via Javascript injection into the scope of an HTML/Javascript Event (Single Quote Delimiter)</title>
+</head>
+<body>
+
+<input type='button' value='ClickMe' onClick='var customerName="&lt;script&gt;alert(&#39;CrossSiteScriptingAcademia&#39;)&lt;/script&gt;"; alert("Welcome Mr. " + customerName);'></input>
+
+
+</body>
+</html>

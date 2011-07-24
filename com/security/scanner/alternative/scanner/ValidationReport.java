@@ -22,10 +22,9 @@ public class ValidationReport {
     public void waitFor() {
         numberOfInjections++;
         try {
-            String pageSource = driver.getPageSource();
-            int locationOfXssPayload = pageSource.indexOf(vector);
-            String payloadToExecute = pageSource.substring( locationOfXssPayload, locationOfXssPayload + vector.length());
-            ((JavascriptExecutor) driver).executeScript(payloadToExecute);
+            WebElement payloadToExecute = driver.findElement(By.xpath("//*[@*[contains(.,'CrossSiteScriptingAcademia')]]"));
+           ((JavascriptExecutor) driver).executeScript(payloadToExecute.toString());
+            //((JavascriptExecutor) driver).executeScript("return document.evaluate(\"//@*[contains(.,'CrossSiteScriptingAcademia')]\", document, null, XPathResult.ANY_TYPE, null)")
             //this is how to make the FirefoxDriver instance run javascript
             Alert alertXss = driver.switchTo().alert();
             if (alertXss.getText().equals("CrossSiteScriptingAcademia")) {
