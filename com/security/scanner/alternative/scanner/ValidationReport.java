@@ -37,15 +37,28 @@ public class ValidationReport {
     }
 
     private boolean hasPayloadTriggeredThroughAlert() {
+        Boolean success = false;
         try {
             Alert alertXss = driver.switchTo().alert();
             if (alertXss.getText().contains("CrossSiteScriptingAcademia"))
             {
+                success = true;
+                while (!alertXss.getText().isEmpty())
+                {
+                    //when it does manage to dismiss the alert it will throw a WevDriverException
+                    alertXss.dismiss();
+                }
+                return true;
+            } else
+            {
                 alertXss.dismiss();
+                return false;
+            }
+        } catch (WebDriverException wde) {
+            if (success)
+            {
                 return true;
             }
-            return false;
-        } catch (WebDriverException wde) {
             return false;
         } catch (NullPointerException npe) {
             return false;

