@@ -22,16 +22,18 @@ public class ValidationReport {
     public void waitFor() {
         numberOfInjections++;
         try {
-            WebElement payloadToExecute = driver.findElement(By.xpath("//*[@*[contains(.,'CrossSiteScriptingAcademia')]]"));
-           ((JavascriptExecutor) driver).executeScript(payloadToExecute.toString());
-            //((JavascriptExecutor) driver).executeScript("return document.evaluate(\"//@*[contains(.,'CrossSiteScriptingAcademia')]\", document, null, XPathResult.ANY_TYPE, null)")
-            //this is how to make the FirefoxDriver instance run javascript
+
             Alert alertXss = driver.switchTo().alert();
-            if (alertXss.getText().equals("CrossSiteScriptingAcademia")) {
+            if (alertXss.getText().contains("CrossSiteScriptingAcademia")) {
                 System.out.println("Attack succeeded for vector: " + vector + " on page " + driver.getCurrentUrl());
+                numberOfSuccesses++;
+            }
+            else
+            {
+                Object payloadToExecute = ((JavascriptExecutor) driver).executeScript("return (document.evaluate(\"//@*[contains(.,'CrossSiteScriptingAcademia')]\", document, null, XPathResult.STRING_TYPE, null)).stringValue");
+                ((JavascriptExecutor) driver).executeScript(payloadToExecute.toString());
             }
             alertXss.dismiss();
-            numberOfSuccesses++;
         } catch (WebDriverException wde) {
             //System.out.println("Attack failed for vector: " + vector + " on page " + driver.getCurrentUrl());
             numberOfFailures++;
