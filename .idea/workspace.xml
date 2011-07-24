@@ -2,10 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list readonly="true" id="1986b5f7-74c0-47e0-b063-bf9c47477bbb" name="Default" comment="" />
-    <list default="true" id="8d399f25-423a-4bb3-9a3e-4302dcdcd887" name="NoCommit" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/temp.xml" />
+    <list default="true" id="8d399f25-423a-4bb3-9a3e-4302dcdcd887" name="NoCommit" comment="Catch both payload executions: when alert pops-up on page loading and when payload is &quot;hidden&quot; in an event.">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com/security/scanner/alternative/scanner/ValidationReport.java" afterPath="$PROJECT_DIR$/com/security/scanner/alternative/scanner/ValidationReport.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com/security/scanner/alternative/scanner/WebVulnerabilityScanner.java" afterPath="$PROJECT_DIR$/com/security/scanner/alternative/scanner/WebVulnerabilityScanner.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/temp.xml" afterPath="$PROJECT_DIR$/temp.xml" />
     </list>
     <ignored path="trunk.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -82,7 +83,7 @@
       <file leaf-file-name="ValidationReport.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/com/security/scanner/alternative/scanner/ValidationReport.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="79" selection-start="868" selection-end="868" vertical-scroll-proportion="0.3964497">
+            <state line="22" column="31" selection-start="623" selection-end="623" vertical-scroll-proportion="0.2517647">
               <folding />
             </state>
           </provider>
@@ -91,7 +92,7 @@
       <file leaf-file-name="temp.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/temp.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="37" selection-start="265" selection-end="265" vertical-scroll-proportion="0.0">
+            <state line="10" column="35" selection-start="441" selection-end="441" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -100,7 +101,7 @@
       <file leaf-file-name="attackVector.txt" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/attackVector.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="28" selection-start="262" selection-end="262" vertical-scroll-proportion="0.0">
+            <state line="8" column="0" selection-start="528" selection-end="597" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -109,7 +110,7 @@
       <file leaf-file-name="WebVulnerabilityScanner.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/com/security/scanner/alternative/scanner/WebVulnerabilityScanner.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="38" selection-start="979" selection-end="979" vertical-scroll-proportion="0.0">
+            <state line="43" column="0" selection-start="1816" selection-end="1816" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -153,12 +154,12 @@
         <option value="$PROJECT_DIR$/com/security/scanner/alternative/scanner/temp.java" />
         <option value="$PROJECT_DIR$/com/security/scanner/alternative/scanner/SeleniumJavaExample.java" />
         <option value="$PROJECT_DIR$/resources/temp.html" />
-        <option value="$PROJECT_DIR$/com/security/scanner/alternative/scanner/WebVulnerabilityScanner.java" />
         <option value="$PROJECT_DIR$/com/security/scanner/alternative/scanner/samsing.groovy" />
         <option value="$PROJECT_DIR$/com/security/scanner/alternative/scanner/Attacker.java" />
         <option value="$PROJECT_DIR$/com/security/scanner/alternative/scanner/TestWebDriver.java" />
-        <option value="$PROJECT_DIR$/temp.xml" />
+        <option value="$PROJECT_DIR$/com/security/scanner/alternative/scanner/WebVulnerabilityScanner.java" />
         <option value="$PROJECT_DIR$/com/security/scanner/alternative/scanner/ValidationReport.java" />
+        <option value="$PROJECT_DIR$/temp.xml" />
       </list>
     </option>
   </component>
@@ -629,8 +630,8 @@
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32729805" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24946997" sideWeight="0.23537605" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21837457" sideWeight="0.6239554" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.34958217" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.06713781" sideWeight="0.6504178" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.34958217" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32033426" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.37604457" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -666,7 +667,7 @@
     <option name="CHECK_COMMIT_MESSAGE_SPELLING" value="true" />
     <option name="DEFAULT_PATCH_EXTENSION" value="patch" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="added JavascriptExecutor into the mix in order to asses if the injection worked...or not" />
+    <option name="LAST_COMMIT_MESSAGE" value="Catch both payload executions: when alert pops-up on page loading and when payload is &quot;hidden&quot; in an event." />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -692,6 +693,9 @@
     <MESSAGE value="rename main class&#10;" />
     <MESSAGE value="xpath needs some tweaking" />
     <MESSAGE value="added JavascriptExecutor into the mix in order to asses if the injection worked...or not" />
+    <MESSAGE value="Need to get the attribute containing CrossSiteScriptingAcademia using javascript. The problem is that document.evaluate(xpath, document, null, XpathResult_ANY_TYPE, null) returns xpathResult object. I need to have it return the full value of the attribute as a string." />
+    <MESSAGE value="Finally have a way to get the attribute containing the XSS payload using javascript with an XPathResult.stringValue" />
+    <MESSAGE value="Catch both payload executions: when alert pops-up on page loading and when payload is &quot;hidden&quot; in an event." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -712,6 +716,9 @@
       <element expression="/*/@*[contains(.,'CrossSiteScriptingAcademia')]" />
       <element expression="//*[@*[contains(.,'CrossSiteScriptingAcademia')]]" />
       <element expression="//@*[contains(.,'CrossSiteScriptingAcademia')]]" />
+      <element expression="//@*[contains(.,'CrossSiteScriptingAcademia')]/text" />
+      <element expression="//@*[contains(.,'CrossSiteScriptingAcademia')]/text()" />
+      <element expression="string(//@*[contains(.,'CrossSiteScriptingAcademia')])" />
       <element expression="//@*[contains(.,'CrossSiteScriptingAcademia')]" />
     </history>
     <find-history />
@@ -772,20 +779,6 @@
         <state line="37" column="64" selection-start="948" selection-end="988" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/com/security/scanner/alternative/scanner/WebVulnerabilityScanner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="38" selection-start="979" selection-end="979" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/attackVector.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="28" selection-start="262" selection-end="262" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/com/security/scanner/action/ResponseAnalyzer.groovy">
       <provider selected="true" editor-type-id="text-editor">
         <state line="17" column="6" selection-start="611" selection-end="611" vertical-scroll-proportion="-1.413242">
@@ -793,16 +786,30 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/resources/attackVector.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="0" selection-start="528" selection-end="597" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/temp.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="37" selection-start="265" selection-end="265" vertical-scroll-proportion="0.0">
+        <state line="10" column="35" selection-start="441" selection-end="441" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com/security/scanner/alternative/scanner/WebVulnerabilityScanner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="43" column="0" selection-start="1816" selection-end="1816" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/com/security/scanner/alternative/scanner/ValidationReport.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="79" selection-start="868" selection-end="868" vertical-scroll-proportion="0.3964497">
+        <state line="22" column="31" selection-start="623" selection-end="623" vertical-scroll-proportion="0.2517647">
           <folding />
         </state>
       </provider>

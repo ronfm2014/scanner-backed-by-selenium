@@ -30,19 +30,25 @@ public class ValidationReport {
             ((JavascriptExecutor) driver).executeScript(payloadToExecute.toString());
             return hasPayloadTriggeredThroughAlert();
         } catch (WebDriverException wde) {
+            return false;
         } catch (NullPointerException npe) {
+            return false;
         }
-        return false;
     }
 
     private boolean hasPayloadTriggeredThroughAlert() {
         try {
             Alert alertXss = driver.switchTo().alert();
-            alertXss.dismiss();
-            return (alertXss.getText().contains("CrossSiteScriptingAcademia"));
+            if (alertXss.getText().contains("CrossSiteScriptingAcademia"))
+            {
+                alertXss.dismiss();
+                return true;
+            }
+            return false;
         } catch (WebDriverException wde) {
+            return false;
         } catch (NullPointerException npe) {
+            return false;
         }
-        return false;
     }
 }
