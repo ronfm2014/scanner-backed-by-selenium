@@ -49,9 +49,12 @@ public class ValidationReport {
                     alertXss.dismiss();
                 }
                 return true;
-            } else
-            {
-                alertXss.dismiss();
+            } else {
+                while (!alertXss.getText().isEmpty())
+                {
+                    //when it does manage to dismiss the alert it will throw a WevDriverException
+                    alertXss.dismiss();
+                }
                 return false;
             }
         } catch (WebDriverException wde) {
