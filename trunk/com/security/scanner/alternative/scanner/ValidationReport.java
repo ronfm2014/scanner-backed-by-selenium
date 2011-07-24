@@ -1,6 +1,5 @@
 package com.security.scanner.alternative.scanner;
 
-import com.gargoylesoftware.htmlunit.javascript.background.JavaScriptExecutor;
 import org.openqa.selenium.*;
 
 import static junit.framework.Assert.assertFalse;
@@ -20,26 +19,30 @@ public class ValidationReport {
     }
 
     public void waitFor() {
-        numberOfInjections++;
-        try {
-
-            Alert alertXss = driver.switchTo().alert();
-            if (alertXss.getText().contains("CrossSiteScriptingAcademia")) {
-                System.out.println("Attack succeeded for vector: " + vector + " on page " + driver.getCurrentUrl());
-                numberOfSuccesses++;
-            }
-            else
-            {
-                Object payloadToExecute = ((JavascriptExecutor) driver).executeScript("return (document.evaluate(\"//@*[contains(.,'CrossSiteScriptingAcademia')]\", document, null, XPathResult.STRING_TYPE, null)).stringValue");
-                ((JavascriptExecutor) driver).executeScript(payloadToExecute.toString());
-            }
-            alertXss.dismiss();
-        } catch (WebDriverException wde) {
-            //System.out.println("Attack failed for vector: " + vector + " on page " + driver.getCurrentUrl());
-            numberOfFailures++;
-        } catch (NullPointerException npe) {
-            //System.out.println("Attack failed for vector: " + vector + " on page " + driver.getCurrentUrl());
-            numberOfFailures++;
+        if (hasPayloadTriggeredWhenEventFired()) {
+            System.out.println("Attack succeeded for vector: " + vector + " on page " + driver.getCurrentUrl());
         }
+    }
+
+    private boolean hasPayloadTriggeredWhenEventFired() {
+        try {
+            Object payloadToExecute = ((JavascriptExecutor) driver).executeScript("return (document.evaluate(\"//@*[contains(.,'CrossSiteScriptingAcademia')]\", document, null, XPathResult.STRING_TYPE, null)).stringValue");
+            ((JavascriptExecutor) driver).executeScript(payloadToExecute.toString());
+            return hasPayloadTriggeredThroughAlert();
+        } catch (WebDriverException wde) {
+        } catch (NullPointerException npe) {
+        }
+        return false;
+    }
+
+    private boolean hasPayloadTriggeredThroughAlert() {
+        try {
+            Alert alertXss = driver.switchTo().alert();
+            alertXss.dismiss();
+            return (alertXss.getText().contains("CrossSiteScriptingAcademia"));
+        } catch (WebDriverException wde) {
+        } catch (NullPointerException npe) {
+        }
+        return false;
     }
 }
