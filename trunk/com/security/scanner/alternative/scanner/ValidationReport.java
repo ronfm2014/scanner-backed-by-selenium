@@ -1,9 +1,5 @@
 package com.security.scanner.alternative.scanner;
-
 import org.openqa.selenium.*;
-
-import static junit.framework.Assert.assertFalse;
-import static junit.framework.Assert.assertTrue;
 
 public class ValidationReport {
 

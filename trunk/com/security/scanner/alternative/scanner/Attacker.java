@@ -41,7 +41,7 @@ public class Attacker {
                 }
             }
 
-            form.findElement(By.xpath(".//input[@type='submit']")).click();
+            form.submit();
             break;
         }
     }
