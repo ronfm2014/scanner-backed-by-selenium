@@ -27,7 +27,6 @@ class Crawler {
   def processed = [] as Set
   def toProcess = [] as Set
   def host = rootUrl.toURL().host.replaceAll(/www./, '')
-  def pagePrefix = ['http', 'https', 'wwww']
   def unwantedPages = ['=http://', '=www', 'mailto', 'javascript', '#']
   def formCount = 0
 

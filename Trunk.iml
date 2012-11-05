@@ -9,6 +9,11 @@
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="Groovy 1.7.4" level="application" />
     <orderEntry type="library" name="WebDriverSelenium" level="application" />
+    <orderEntry type="library" name="org.seleniumhq.selenium:selenium-chrome-driver:2.25.0" level="project" />
+    <orderEntry type="library" name="org.codehaus.groovy:groovy-all:1.8.8" level="project" />
+    <orderEntry type="library" name="org.apache.directory.studio:org.apache.commons.io:2.1" level="project" />
+    <orderEntry type="library" name="nekohtml:nekohtml:1.9.12" level="project" />
+    <orderEntry type="library" name="lib" level="project" />
   </component>
 </module>
 
