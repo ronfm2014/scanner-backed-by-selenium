@@ -1,0 +1,1 @@
+scans websites for xss vulnerabilities
